@@ -6,7 +6,8 @@ namespace WishList
     {
         static void Main(string[] args)
         {
-            PrintWishes();
+            Wishes wishes = new Wishes();
+            wishes.PrintWishes();
         }
     }
 }
