@@ -7,7 +7,7 @@ namespace Insulter
     {
         static void Main(string[] args)
         {
-            public List<string> insults = new List<string>()
+            List<string> insults = new List<string>()
             {
                 "You look like what morning breath smells like.",
             "If you tried to give me cpr I would probably throw myself back under water",
@@ -17,6 +17,22 @@ namespace Insulter
             "If I were given a million dollars to hang out with you...I would, but then I'd have to spend half of it on therapy",
             "Do you have to be so...like that?"
             };
+
+            List<string> indexes = new List<string>();
+
+            while (indexes.length < 3)
+            {
+
+            }
+
+            getRandomInt(int min, int max)
+            {
+                Random r = new Random();
+                int randomNum = r.Next();
+
+
+            }
+
+        }
     }
-}
 }
