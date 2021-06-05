@@ -40,7 +40,7 @@ namespace WordFrequency
                 }
             }
 
-            // Console.WriteLine(words);
+            Console.WriteLine("Carl Sagan's 'BBillyuns and BBillyuns... Pale Blue Dot word frequency");
 
             foreach (KeyValuePair<string, int> item in freqCounts)
             {
